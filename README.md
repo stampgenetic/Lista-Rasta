@@ -163,8 +163,9 @@ Exemplo: http://localhost/listaRastaEnd/public/
 Você será direcionado para a página de login. Crie uma conta e comece a usar!
 
 👥 Integrantes
-[Nome do Integrante 1]
-
-[Nome do Integrante 2]
+Lucas de Fiori Viudes 
+Lucas Gozer Lopes
+Vitto Lorenzo Barboza Legnani
 
 🔗 Diagrama Entidade-Relacionamento (DER)
+https://github.com/stampgenetic/Lista-Rasta/tree/main/DER
