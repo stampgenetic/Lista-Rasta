@@ -56,6 +56,12 @@ CREATE TABLE `tasks` (
   `completed` BOOLEAN DEFAULT 0,
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
+
+CREATE TABLE dificuldade (
+id INT AUTO_INCREMENT PRIMARY KEY,
+nivel VARCHAR(50) NOT NULL UNIQUE
+);
+
 Configurar as Credenciais do Banco
 
 Abra o arquivo database/Database.php.
