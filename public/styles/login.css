@@ -1,5 +1,3 @@
-/* src/styles/login.css */
-
 @keyframes background-pan {
   0% {
     background-position: 0% 50%;
@@ -20,7 +18,6 @@ body {
   min-height: 100vh;
   margin: 0;
   color: #333;
-  /* Efeito de fundo dinâmico para unificar com o resto do site */
   background-image: url("../assets/backgroundrasta.jpg");
   background-size: 150%;
   background-repeat: no-repeat;
@@ -39,14 +36,8 @@ body {
   }
 }
 
-/* --- Container do Formulário --- */
 form {
-  background: rgba(
-    34,
-    34,
-    34,
-    0.9
-  ); /* Fundo semitransparente para destacar o formulário */
+  background: rgba(34, 34, 34, 0.9);
   padding: 2rem 2.5rem;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
@@ -58,7 +49,6 @@ form {
   transition: transform 0.3s ease;
 }
 
-/* --- Elementos do Bloco de Login --- */
 h2 {
   margin-bottom: 1.5rem;
   font-size: 2rem;
@@ -67,7 +57,6 @@ h2 {
   text-shadow: 2px 2px 2px #d32f2f, 4px 4px 4px #174619;
 }
 
-/* --- Campos de Input (Usuário e Senha) --- */
 input[type="text"],
 input[type="password"] {
   width: 100%;
@@ -75,7 +64,7 @@ input[type="password"] {
   margin-bottom: 1rem;
   border-radius: 6px;
   border: 1px solid #ccc;
-  background-color: #fff; /* A última declaração do seu código prevalece */
+  background-color: #fff;
   box-sizing: border-box;
   transition: border-color 0.3s, box-shadow 0.3s;
 }
@@ -87,7 +76,6 @@ input[type="password"]:focus {
   box-shadow: 0 0 8px rgba(211, 47, 47, 0.7);
 }
 
-/* --- Botão "Entrar" --- */
 button[type="submit"] {
   width: 100%;
   padding: 12px;
@@ -107,10 +95,9 @@ button[type="submit"]:hover {
   background-position: right center;
 }
 
-/* --- Texto e Link de Cadastro --- */
 p {
   margin-top: 1.5rem;
-  color: #f0f0f0; /* Alterado para branco para melhor legibilidade */
+  color: #f0f0f0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
@@ -126,14 +113,13 @@ p a:hover {
   color: #fff;
 }
 
-/* --- Estilo da Mensagem de Erro --- */
 form p[style*="color"] {
   padding: 10px;
   border-radius: 8px;
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: bold;
-  color: #fff !important; /* Sobrescreve o inline style do PHP */
+  color: #fff !important;
   background-color: rgba(211, 47, 47, 0.8);
   border: 1px solid #d32f2f;
   text-shadow: none;
